@@ -34,6 +34,7 @@
     letter-spacing: 0.5vw;
     grid-template-columns: repeat(3, 1fr);
     gap: 9%;
+    margin-bottom:-5%;
 }
 
 main div h2 {
