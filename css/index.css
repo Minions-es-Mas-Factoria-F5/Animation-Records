@@ -14,3 +14,13 @@ main {
 	width: 80%;
 	margin: 0 auto;  
 }
+
+#backButton {
+	display: flex;
+	justify-content: end;
+}
+
+#backButton a {
+	text-align: end;
+	text-decoration: underline;
+}
