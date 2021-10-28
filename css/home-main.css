@@ -13,6 +13,7 @@
     width: 95%;
     height: 13.5vw;
     object-fit: cover;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);;
 }
 
 .categories-title {
@@ -35,6 +36,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 9%;
     margin-bottom:-5%;
+    
 }
 
 main div h2 {
@@ -64,14 +66,9 @@ a:focus {
     color:darkred;
 }
 
-a:visited {
-    color: black;
-}
-
 .categories:hover {
     position: relative;
     width: 95%;
     height: 13.5vw;
     object-fit: hidden;
-    margin-bottom:-5%;
 }
