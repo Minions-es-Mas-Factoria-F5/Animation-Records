@@ -21,11 +21,11 @@
     padding-top: 5.5%;
     font-family: rubik ligth;
     font-size: 1.5vw;
-    letter-spacing: 0.8vwswit
+    letter-spacing: 0.8vw;
 }
 
 .categories-box {
-    max-width: 85%;
+    max-width: 95%;
     max-height: 20%;
     margin: 3% auto 10% auto;
     display: grid;

@@ -1,9 +1,12 @@
 #gallery {
     display: flex;
     flex-wrap: wrap;
-        
-    
 }
+
+#gallery:hover {
+    size: 50%;
+}
+
 section.item_gallery{
     width: 20%;
     padding: 2%;
