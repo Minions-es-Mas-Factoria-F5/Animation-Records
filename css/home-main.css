@@ -35,6 +35,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 9%;
     margin-bottom:-5%;
+    
 }
 
 main div h2 {
@@ -73,5 +74,5 @@ a:visited {
     width: 95%;
     height: 13.5vw;
     object-fit: hidden;
-    margin-bottom:-5%;
+    
 }
