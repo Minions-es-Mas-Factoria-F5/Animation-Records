@@ -1,1 +1,4 @@
-@import url("./home-main.css");
+@import "./body_styles/body.css";
+@import "./section_styles/section.css";
+@import "./gallery_styles/gallery.css";
+@import "./home-main.css";
