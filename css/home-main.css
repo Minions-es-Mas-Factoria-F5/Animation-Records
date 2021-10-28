@@ -66,10 +66,6 @@ a:focus {
     color:darkred;
 }
 
-a:visited {
-    color: black;
-}
-
 .categories:hover {
     position: relative;
     width: 95%;
