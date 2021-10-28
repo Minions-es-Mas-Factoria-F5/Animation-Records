@@ -1,0 +1,32 @@
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #202020;
+}
+
+footer .socials h2 { 
+    padding-bottom: 5px;
+    color: white;
+}
+
+footer .socials a{   
+    margin: 5px;
+    padding-bottom: 5px;
+    font-size: 35px;
+    color: white;
+}
+
+footer .socials a:hover{
+    color: #ED1D24;
+    transition: .3s ;
+}
+
+footer .licenses h2 {   
+    font-size: 15px;
+    color: white;
+}
+
+footer .licenses h2:hover{
+    color: #ED1D24;
+    transition: .3s ;
+}
