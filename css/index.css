@@ -10,6 +10,12 @@
 	box-sizing: border-box;
 }
 
+main {
+	width: 80%;
+	margin: 0 auto;  
+}
+
+
 #backButton {
 	display: flex;
 	justify-content: end;
@@ -19,3 +25,4 @@
 	text-align: end;
 	text-decoration: underline;
 }
+
