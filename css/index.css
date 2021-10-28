@@ -1,4 +1,4 @@
-@import "/css/imports.css"
+@import url("./imports.css");
 
 *{
 	margin: 0;
