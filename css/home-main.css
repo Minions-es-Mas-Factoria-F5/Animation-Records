@@ -67,8 +67,6 @@ a:focus {
 }
 
 .categories:hover {
-    position: relative;
-    width: 95%;
-    height: 13.5vw;
-    object-fit: hidden;
+        transform:translateY(-5%);
+        transition-duration: 0.3s;   
 }
