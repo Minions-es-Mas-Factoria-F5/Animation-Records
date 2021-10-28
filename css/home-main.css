@@ -21,11 +21,11 @@
     padding-top: 5.5%;
     font-family: rubik ligth;
     font-size: 1.5vw;
-    letter-spacing: 0.8vwswit
+    letter-spacing: 0.8vw;
 }
 
 .categories-box {
-    max-width: 85%;
+    max-width: 95%;
     max-height: 20%;
     margin: 3% auto 10% auto;
     display: grid;
@@ -35,7 +35,7 @@
     letter-spacing: 0.5vw;
     grid-template-columns: repeat(3, 1fr);
     gap: 9%;
-    margin-bottom:-5%;
+    margin-bottom:10%;
     
 }
 
@@ -67,8 +67,6 @@ a:focus {
 }
 
 .categories:hover {
-    position: relative;
-    width: 95%;
-    height: 13.5vw;
-    object-fit: hidden;
+        transform:translateY(-5%);
+        transition-duration: 0.3s;   
 }

@@ -1,9 +1,12 @@
 #gallery {
     display: flex;
     flex-wrap: wrap;
-        
-    
 }
+
+#gallery:hover {
+    size: 50%;
+}
+
 section.item_gallery{
     width: 20%;
     padding: 2%;
@@ -67,4 +70,7 @@ div.item_info :nth-child(2) {
  }
  }
 
-
+.item_gallery img:hover {
+    transform:translateY(-5%);
+    transition-duration: 0.3s;   
+}
