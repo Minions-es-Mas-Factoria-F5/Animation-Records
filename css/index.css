@@ -1,4 +1,5 @@
-@import "/css/imports.css";
+@import url("./imports.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
 
 *{
 	margin: 0;
@@ -7,18 +8,21 @@
 	text-decoration: none;
 	border: none;
 	outline: none;
-	box-sizing: border-box;
 }
 
-
+body{
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
 
 main {
 	width: 80%;
 	margin: 0 auto;  
 }
 
-
 #backButton {
+	margin-bottom: 40px;
 	display: flex;
 	justify-content: end;
 }

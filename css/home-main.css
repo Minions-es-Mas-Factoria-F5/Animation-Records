@@ -8,16 +8,15 @@
 }
 
 .categories {
-    width: 95%;
+    width: 80%;
     height: 13.5vw;
     object-fit: cover;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
 }
 
 .categories-title {
     text-align: center;
     padding-top: 5.5%;
-    font-family: rubik ligth;
     font-size: 1.5vw;
     letter-spacing: 0.8vw;
 }
@@ -29,12 +28,10 @@
     display: grid;
     text-align: center;
     padding-top: 3%;
-    overflow: cover;
     letter-spacing: 0.5vw;
     grid-template-columns: repeat(3, 1fr);
     gap: 9%;
     margin-bottom:10%;
-    
 }
 
 main div h2 {
@@ -43,28 +40,44 @@ main div h2 {
     padding-bottom: 2%;
     margin-top: 5%;
     margin-bottom: 8%;
-    font-family: rubik ligth;
     font-size: 1.5vw;
     background-color: rgb(241, 241, 241);  
 }
 
-a:any-link {
+.categories-box a:any-link {
     color:black;
 }
 
-a:hover {
+.categories-box a:hover {
     color: red;
 }
 
-a:active {
+.categories-box a:active {
     color: black;
 }
 
-a:focus {
+.categories-box a:focus {
     color:darkred;
 }
 
 .categories:hover {
-        transform:translateY(-5%);
-        transition-duration: 0.3s;   
+    transform:translateY(-5%);
+    transition-duration: 0.3s;  
+}
+
+form{   
+    margin: 30px;
+    padding: 40px;
+    color: white;
+    background-color: #202020;
+}
+
+form h2{
+    font-size: 0.9em;
+    width: 33%;
+    float: left;
+}
+form h3{
+    font-size: 0.8em;
+    transform:translateY(5%);
 }
