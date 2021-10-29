@@ -26,7 +26,12 @@ footer .licenses h2 {
     color: white;
 }
 
-footer .licenses h2:hover{
+footer .licenses a{
+    font-size: 15px;
+    color: white;
+}
+
+footer .licenses a:hover{
     color: #ED1D24;
     transition: .3s ;
 }
