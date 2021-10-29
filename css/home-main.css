@@ -66,7 +66,6 @@ main div h2 {
 }
 
 form{   
-    justify-content: space-around;
     margin: 30px;
     padding: 40px;
     color: white;
@@ -74,7 +73,11 @@ form{
 }
 
 form h2{
-    font-size: 0.9vw;
-    width: 20%;
+    font-size: 0.9em;
+    width: 33%;
     float: left;
+}
+form h3{
+    font-size: 0.8em;
+    transform:translateY(5%);
 }
