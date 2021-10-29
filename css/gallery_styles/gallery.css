@@ -1,6 +1,7 @@
 #gallery {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 #gallery:hover {
@@ -9,7 +10,7 @@
 
 section.item_gallery{
     width: 15%;
-    padding: 2%;
+    padding: 1%;
 }
 
 section.item_gallery {
@@ -19,7 +20,6 @@ section.item_gallery {
 
 .item_gallery img {
     width: 100%;
-    max-height: 100%;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);;
 }
 
@@ -32,7 +32,7 @@ div.item_info {
 
 .item_info p {
     padding: 1%;
-
+  
 }
 
 p.name_item {
@@ -64,13 +64,19 @@ p.price_item {
 }
    
 div.item_info :nth-child(1) {
-    flex-basis: 80%;
+    flex-basis: 70%;
 }
 
 div.item_info :nth-child(2) {
     flex-basis: 20%;
 }
- @media screen and (max-width: 768px) {
+#backButton {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+@media screen and (max-width: 768px) {
     #gallery {
         justify-content: center;
     }
