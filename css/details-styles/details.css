@@ -1,4 +1,4 @@
-#productInfo {
+#product-info {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -8,7 +8,7 @@
     margin: 100px 0 100px 0;
 }
 
-#productImages {
+#product-images {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,14 +20,14 @@
     margin: 30px
 }
 
-#productMainImage {
+#product-mainImage {
     margin: 5px;
     width: 90%;
     min-width: 200px;
     object-fit: cover;
 }
 
-#detailsRow {
+#details-row {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -37,7 +37,7 @@
     margin: 30px;
 }
 
-#productText {
+#product-text {
     width: 100%;
     min-width: 200px;
     height: 80%;
@@ -47,14 +47,14 @@
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
 }
 
-#productTitle {
+#product-title {
     text-align: center;
     padding-bottom: 10px;
     font-size: 24px;
     font-weight: bold;
 }
 
-#productDescription {
+#product-description {
     text-align: justify;
     text-indent: 40px;
     padding-bottom: 10px;
@@ -62,7 +62,7 @@
     font-weight: normal;
 }
 
-#productAuth {
+#product-auth {
     text-align: justify;
     padding-bottom: 10px;
     font-size: 16px;
@@ -70,7 +70,7 @@
     color: rgb(75, 75, 75);
 }
 
-#productDate {
+#product-date {
     text-align: justify;
     padding-bottom: 10px;
     font-size: 16px;
@@ -78,14 +78,14 @@
     color: rgb(75, 75, 75);
 }
 
-#productPrice {
+#product-price {
     text-align: end;
     padding-bottom: 10px;
     font-size: 20px;
     font-weight: bold;
 }
 
-#productInteraction {
+#product-interaction {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -94,7 +94,7 @@
     height: 20%;
 }
 
-#addButton {
+#add-button {
     padding: 20px;
     margin-right: 20px;
     background: #EC1D24;
@@ -104,20 +104,20 @@
     color: white;
 }
 
-#addButton:hover {
+#add-button:hover {
     background: #3d3d3d;
     color: #EC1D24;
     transition-duration: 0.3s;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
 }
 
-#thumbsUp {
+#thumbs-up {
     width: 50px;
     height: 50px;
     color: #828282;
 }
 
-#thumbsUp:hover {
+#thumbs-up:hover {
     transform: scale(1.1);
     transition-duration: 0.3s;
 }

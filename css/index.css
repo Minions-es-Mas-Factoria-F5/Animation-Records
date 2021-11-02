@@ -21,13 +21,13 @@ main {
 	margin: 0 auto;  
 }
 
-#backButton {
+#back-button {
 	margin-bottom: 40px;
 	display: flex;
 	justify-content: end;
 }
 
-#backButton a {
+#back-button a {
 	text-align: end;
 	text-decoration: underline;
 }

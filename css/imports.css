@@ -2,5 +2,5 @@
 @import url("./footer.css");
 @import url("./header.css");
 @import "./body_styles/body.css";
-@import "./section_styles/section.css";
+@import "./details-styles/details.css";
 @import "./gallery_styles/gallery.css";
