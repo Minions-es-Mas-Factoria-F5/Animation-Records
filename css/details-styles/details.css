@@ -195,17 +195,17 @@ div.suggested-item-info :nth-child(2) {
     flex-basis: 20%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     #suggested {
         justify-content: center;
     }
     section.suggested-gallery{
-        width: 30%;
+        width: 40%;
         padding: 2%;
  }
  }
 
- @media screen and (max-width: 480px) {
+ @media screen and (max-width: 500px) {
     main {
         width: 100%;
     }
