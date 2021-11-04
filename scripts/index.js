@@ -4,7 +4,7 @@ import { changeImage } from "./slideshow.js"
 const addBtn = document.getElementById('add-button')
 const imageSlide = document.getElementById('img-slideshow')
 
-window.onload = updateCart
+updateCart()
 
 if ( addBtn != null ) {
     addBtn.onclick = addItem

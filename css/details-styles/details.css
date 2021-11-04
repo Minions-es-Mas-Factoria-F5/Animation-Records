@@ -232,6 +232,8 @@ div.suggested-item-info :nth-child(2) {
 
 
 #backButton {
+    display: flex;
+    justify-content: flex-end;
     width: 80%;
     margin: 0 auto;
     padding: 1%;
