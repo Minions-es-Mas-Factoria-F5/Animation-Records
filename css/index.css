@@ -1,5 +1,5 @@
-@import url("./imports.css");
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
+@import "./imports.css";
+@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap';
 
 *{
 	margin: 0;
@@ -32,4 +32,10 @@ main {
 #back-button a {
 	text-align: end;
 	text-decoration: underline;
+	text-decoration: none;
+	color: black;
+}
+	
+#back-button a:hover{
+	color: #EC1D24;
 }

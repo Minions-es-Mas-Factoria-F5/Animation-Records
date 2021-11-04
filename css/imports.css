@@ -1,7 +1,7 @@
-@import url("./home-main.css");
-@import url("./footer.css");
-@import url("./header.css");
+@import "./home-main.css";
+@import "./footer.css";
+@import "./header.css";
 @import "./body_styles/body.css";
-@import url("slideshow-styles.css");
+@import "./slideshow-styles.css";
 @import "./details-styles/details.css";
 @import "./gallery_styles/gallery.css";
