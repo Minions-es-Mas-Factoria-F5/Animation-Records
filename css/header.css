@@ -6,36 +6,73 @@ header{
     align-items: center; 
     background-color: #202020;
 }
-  
 
-header ul{
-    list-style: none;
-    margin-left: 40px;
+header nav {
+    font-size: 1.3em;
+    letter-spacing: 0.1vw;
 }
 
-header ul a{
-    margin: 0 5px;
-    padding: 5px;
+header nav ul a, .word_style_as_link{
     color: white;
+    display:block;
 }
 
-header ul a:hover{
+header nav ul ul a:hover{
     background-color: rgba(212, 25, 25, 0.842);
     transition: .3s;
 }
 
+nav ul ul {
+    display:none;
+    position:absolute;
+    padding-bottom: 2vw;
+    background-color: #202020;
+    left: 0%; 
+}
+
+nav ul ul a, .word_style_as_link {
+    white-space: pre;
+    padding:  0.8vw 12vw 0.8vw 4vw;
+    text-align: left; 
+}
+
+nav ul li:hover ul {
+    display:block;
+}
+
+#subsubmenu a {
+    font-weight: lighter;
+}
+
+#subsubmenu  {
+    width: 100%;
+}
+
 .logotype{
-    width: 135px;
-    height: 55px;
+    width: 100px;
+    height: 45px;
 }
 
 header i{
-    margin: 0px 40px 0px 133px;
-    padding: 5px;
+    margin-right: 0.5em;
     color: white;
 }
 
 header i:hover{
     color: #ED1D24;
-    transition: .3s ;
+    transition: .3s;
+}
+
+#nav_menu_icon_style {
+    margin-left:45px;
+    font-size: 1.2em;
+}
+
+.fa-angle-right {
+   font-size:1em;
+   color:rgba(212, 25, 25, 0.842);
+}
+
+#cart {
+	margin-right: 45px;
 }
