@@ -1,6 +1,6 @@
 # Animation-Records
 
-Marvel merchandising shop, it's functional, mostly
+Marvel merchandising shop, it's functional, mostly.
 
 ## Pre-requirement
 
