@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +10,10 @@
     <link rel="stylesheet" href="./css/index.css">
     <script src="https://kit.fontawesome.com/53a56a884d.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
+
         <nav>          
             <ul>
                 <li><a><i class="fa fa-bars" id="nav_menu_icon_style" aria-hidden="true"></i></a>
@@ -34,9 +37,20 @@
         <a href="index.html"><img class="logotype" src="./assets/img/logotype/marvel-logo.png" alt="Marvel logotype"></a>
 
         <i class="fas fa-shopping-cart"></i>
-    </header>
 
+        <div id="shop-cart">
+            <i class="fas fa-shopping-cart"></i>
+            <div id="shop-circle">
+                <h4 id="cart-num"></h4>
+            </div>
+        </div>
+
+    </header>
+    <section id="banner">
+        <img name="imgSlideshow" id="img-slideshow">
+    </section>
     <main>
+        
       
         <section id="gallery">
             <section class="item-gallery">
@@ -152,7 +166,7 @@
             <section class="item-gallery">
                 <a href="product-details-venom.html">
                     <img src="./assets/img/products/venom_main.jpg" class="img-item" alt="Portada de comic Venom">
-                    <div class="item_info">
+                    <div class="item-info">
                         <p class="name-item">Venom</p>
                         <p class="price-item">4€</p>
                         <p class="date-item">2018</p>
@@ -205,7 +219,7 @@
             </section>
         </section>
 
-        <div id="back-button">
+        <div id="backButton">
             <a href="index.html">&lt;&lt; Back</a>
         </div>
 
@@ -214,23 +228,27 @@
     <footer>
         <div class="socials">
             <h2>Síguenos aquí:</h2>
-            <a href="https://www.instagram.com/marvel/" target="_blank"><i class="fab fa-instagram-square"></i></a>
-            <a href="https://www.youtube.com/marvel" target="_blank"><i class="fab fa-youtube-square"></i></a>
-            <a href="https://twitter.com/marvel" target="_blank"><i class="fab fa-twitter-square"></i></a>
-            <a href="https://www.facebook.com/Marvel/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/marvel/" target="_BLANK"><i class="fab fa-instagram-square"></i></a>
+            <a href="https://www.youtube.com/marvel" target="_BLANK"><i class="fab fa-youtube-square"></i></a>
+            <a href="https://twitter.com/marvel" target="_BLANK"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://www.facebook.com/Marvel/" target="_BLANK"><i class="fab fa-facebook-square"></i></a>
             </div>
 
             <div class="licenses">
-                <a href="https://disneytermsofuse.com/" target="_blank">Terms of Use</a>
-                <a href="https://privacy.thewaltdisneycompany.com/es-es/" target="_blank">Privacy Policy</a>
-                <a href="https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/your-california-privacy-rights/" target="_blank">Your California Privacy Rights</a>
-                <a href="https://privacy.thewaltdisneycompany.com/en/for-parents/childrens-online-privacy-policy/" target="_blank">Children's Online Privacy Policy</a>
-                <a href="https://www.marvel.com/corporate/license_tou" target="_blank">License Agreement</a>
-                <a href="http://preferences-mgr.truste.com/?pid=disney01&aid=marvel01&type=marvel" target="_blank">Interest-Based Ads</a>
-                <a href="https://www.marvel.com/corporate/insider_terms" target="_blank">Marvel Insider Terms</a>
+                <a href="https://disneytermsofuse.com/" target="_BLANK">Terms of Use</a>
+                <a href="https://privacy.thewaltdisneycompany.com/es-es/" target="_BLANK">Privacy Policy</a>
+                <a href="https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/your-california-privacy-rights/" target="_BLANK">Your California Privacy Rights</a>
+                <a href="https://privacy.thewaltdisneycompany.com/en/for-parents/childrens-online-privacy-policy/" target="_BLANK">Children's Online Privacy Policy</a>
+                <a href="https://www.marvel.com/corporate/license_tou" target="_BLANK">License Agreement</a>
+                <a href="http://preferences-mgr.truste.com/?pid=disney01&aid=marvel01&type=marvel" target="_BLANK">Interest-Based Ads</a>
+                <a href="https://www.marvel.com/corporate/insider_terms" target="_BLANK">Marvel Insider Terms</a>
                 <h2 >©2021 MARVEL</h2>
             </div>
         
     </footer>
+
+    <script src="scripts/index.js" type="module"></script>
+    <script src="scripts/slideshow.js"></script>
+
 </body>
 </html>

@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <head></head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,11 +37,16 @@
             
         <a href="index.html"><img class="logotype" src="./assets/img/logotype/marvel-logo.png" alt="Marvel logotype"></a>
 
-        <i class="fas fa-shopping-cart" id="cart"></i>
+        <div id="shop-cart">
+            <i class="fas fa-shopping-cart"></i>
+            <div id="shop-circle">
+                <h4 id="cart-num"></h4>
+            </div>
+        </div>
     </header>
 
-    <section>
-        <div class="banner" alt="Imágenes promocionales"></div>
+    <section id="banner">
+        <img name="imgSlideshow" id="img-slideshow">
     </section>
 
     <main>
@@ -119,8 +124,12 @@
                 <a href="https://www.marvel.com/corporate/insider_terms" target="_blank">Marvel Insider Terms</a>
                 <h2 >©2021 MARVEL</h2>
             </div>
-        
+
     </footer>
+
+    <script src="scripts/index.js" type="module"></script>
+    <script src="scripts/slideshow.js"></script>
+
 </body>
 
 </html>

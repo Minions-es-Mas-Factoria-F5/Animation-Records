@@ -53,12 +53,23 @@ nav ul li:hover ul {
     height: 45px;
 }
 
-header i{
+i{
     margin-right: 0.5em;
+}
+
+#shop-cart {
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
 }
 
-header i:hover{
+#shop-cart i {
+    font-size: 1.8em;
+}
+
+#shop-cart i:hover{
     color: #ED1D24;
     transition: .3s;
 }
@@ -73,6 +84,20 @@ header i:hover{
    color:rgba(212, 25, 25, 0.842);
 }
 
-#cart {
-	margin-right: 45px;
+#shop-cart div {
+  height: 1.6em;
+  width: 1.6em;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 12px;
+  right: 14px;
+  background-color: #ED1D24;
+}
+
+#shop-cart h4 {
+    font-size: 1.2em;
+    user-select: none;
 }
