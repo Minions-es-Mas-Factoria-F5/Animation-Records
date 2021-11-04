@@ -1,11 +1,11 @@
 # Animation-Records
-hola
+
+Marvel merchandising shop, it's functional, mostly
+
 ## Pre-requirement
+
+none!
 
 ## Dependencies
 
-## Installation
-
-lo que sea
-
- :) 
+none!
