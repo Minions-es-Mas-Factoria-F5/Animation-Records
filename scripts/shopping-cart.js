@@ -1,8 +1,7 @@
-const addBtn = document.getElementById('add-button')
 const shopNum = document.getElementById('cart-num')
 const shopCircle = document.getElementById('shop-circle')
 
-function updateCart()
+export function updateCart()
 {
     var buyNum = localStorage.getItem('itemNum')
     shopNum.innerHTML = buyNum
@@ -11,9 +10,7 @@ function updateCart()
     }
 }
 
-window.onload = updateCart()
-
-addBtn.onclick = function() 
+export function addItem() 
 {
     shopCircle.style.display = "flex"
     var buyList = localStorage.getItem('buyList')
