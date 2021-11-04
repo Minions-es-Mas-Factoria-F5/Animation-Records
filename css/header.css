@@ -6,7 +6,6 @@ header{
     align-items: center; 
     background-color: #202020;
 }
-  
 
 header ul{
     list-style: none;
@@ -29,13 +28,37 @@ header ul a:hover{
     height: 55px;
 }
 
-header i{
-    margin: 0px 40px 0px 133px;
-    padding: 5px;
+#shop-cart {
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
 }
 
-header i:hover{
+#shop-cart i {
+    font-size: 1.8em;
+}
+
+#shop-cart i:hover{
     color: #ED1D24;
     transition: .3s ;
+}
+
+#shop-cart div {
+  height: 1.6em;
+  width: 1.6em;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 12px;
+  right: 14px;
+  background-color: #ED1D24;
+}
+
+#shop-cart h4 {
+    font-size: 1.2em;
+    user-select: none;
 }
