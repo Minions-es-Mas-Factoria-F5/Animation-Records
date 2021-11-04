@@ -93,11 +93,11 @@ i{
   align-items: center;
   position: relative;
   bottom: 12px;
-  right: 14px;
+  right: 20px;
   background-color: #ED1D24;
 }
 
 #shop-cart h4 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     user-select: none;
 }
