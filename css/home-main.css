@@ -69,14 +69,20 @@ form{
     margin: 30px;
     padding: 40px;
     color: white;
+    
     background-color: #202020;
+}
+
+form input {
+    position:relative;
+    max-width: 70%;
 }
 
 form h2{
     font-size: 0.9em;
-    width: 33%;
     float: left;
 }
+
 form h3{
     font-size: 0.8em;
     transform:translateY(5%);

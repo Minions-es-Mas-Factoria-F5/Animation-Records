@@ -11,6 +11,8 @@
 }
 
 body{
+	width: auto vw;
+	height: auto vw;
 	background-color: white;
 	font-family: 'Roboto', sans-serif;
 	box-sizing: border-box;
