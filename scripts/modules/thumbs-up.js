@@ -1,6 +1,6 @@
 var color= true;
 
-function like() {
+export function like() {
     if (color == true) {
         document.getElementById("like-btn").style.backgroundColor ='lightgrey';
         color = false;

@@ -1,13 +1,21 @@
-import { addItem, updateCart } from "./shopping-cart.js"
-import { changeImage } from "./slideshow.js"
+import { addItem, updateCart } from "./modules/shopping-cart.js";
+import { changeImage } from "./modules/slideshow.js";
+import { obtainForm  } from "./modules/form.js";
+import { like } from "./modules/thumbs-up.js";
 
-const addBtn = document.getElementById('add-button')
-const imageSlide = document.getElementById('img-slideshow')
+const addBtn = document.getElementById('add-button');
+const imageSlide = document.getElementById('img-slideshow');
+const likeBtn = document.getElementById('like-btn');
+const formSubmitBtn = document.getElementById('submit');
 
-updateCart()
 
 if ( addBtn != null ) {
-    addBtn.onclick = addItem
+    addBtn.onclick = addItem;
+    likeBtn.onclick = like;
+}
+
+if (formSubmitBtn != null) {
+    obtainForm();
 }
 
 if ( imageSlide != null ) {
@@ -17,9 +25,8 @@ if ( imageSlide != null ) {
         changeImage()
     }, timer);
 }
-import {obtainForm} from "./modules/form.js";
 
 export function app(){
-    obtainForm();
+    updateCart();
 }
 app();
