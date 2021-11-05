@@ -8,7 +8,7 @@ They requested a development team to make a website to publish their products. T
 
 When the customer clicks on a category, the gallery page of the related products will be displayed. From the product gallery, a link is required to go back to the previous page and on the product detail page, a link like the one mentioned above will also be available.
 
-Once you visit a category page when you click on a product you will be redirected to the detail page of this product which will have the product photo, descriptive text, the add to cart button, the like icon which will change status when you click on it, and there will be also, a recommended products section.
+Once you visit a category page when you click on a product you will be redirected to the detail page of this product which will have the product photo, descriptive text, the add to cart button, the like icon which will change status when you click on it, and there will also be, a recommended products section.
 
 ## Dependencies
 
