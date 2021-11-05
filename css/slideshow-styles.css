@@ -1,9 +1,9 @@
-#banner, #img-slideshow {
-    width: 100%;
+#banner {
     height: 37vw;
-    margin: auto;
-    /*text-align: center;*/
-    /*
-    background-image: url("../assets/img/banner/marvel-banner-opcion2.jpg");*/
+    object-fit:contain;
+    overflow:hidden;
 }
- 
+
+#img-slideshow{
+  max-width: 100%;
+}

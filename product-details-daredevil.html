@@ -45,15 +45,22 @@
 
     <main>
         <section id="product-info">
-            <div id="miniatures">
-            <img src="./assets/img/product-details/img-miniature-1.png" alt="Imágen de comic en miniatura" class="min-img" id="min-image-1">
-            <img src="./assets/img/product-details/img-miniature-2.png" alt="Imágen de comic en miniatura" class="min-img" id="min-image-2">
-            <img src="./assets/img/product-details/img-miniature-3.png" alt="Imágen de comic en miniatura" class="min-img" id="min-image-3">
-            </div>
             <div id="product-images">
-                <img src="./assets/img/product-details/img-original-1.jpg" alt="Daredevil Comic" id="product-mainImage">
-            </div>
-            
+                <div id="miniatures">
+                    <div class="min-img">
+                        <img src="./assets/img/product-details/img-miniature-1.png" alt="Imágen de comic en miniatura" class="min-img" id="min-image-1">
+                    </div>
+                    <div class="min-img">
+                        <img src="./assets/img/product-details/img-miniature-2.png" alt="Imágen de comic en miniatura" class="min-img" id="min-image-2">
+                    </div>
+                    <div class="min-img">
+                        <img src="./assets/img/product-details/img-miniature-3.png" alt="Imágen de comic en miniatura" class="min-img" id="min-image-3">
+                    </div>
+                </div>
+                <div id="product-main-image">
+                    <img src="./assets/img/product-details/img-original-1.jpg" alt="Daredevil Comic" id="product-mainImage">
+                </div>
+            </div> 
                 
             <div id="details-row">
                 <article id="product-text">
@@ -66,7 +73,7 @@
                     <h3 id="product-price">5€</h3>
                 </article>
                 <div id="product-interaction">
-                    <h3 id="add-button">AÑADIR AL CARRITO</h3>
+                    <h3 id="add-button" class="add-button">AÑADIR AL CARRITO</h3>
                     <img src="assets/img/icons/thumbs_up.svg" alt="Thumbs up" id="thumbs-up" onclick="like">
                 </div>
             </div>
