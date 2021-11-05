@@ -75,8 +75,8 @@ i{
 }
 
 #nav_menu_icon_style {
-    margin-left:45px;
-    font-size: 1.2em;
+    margin: 33px 55px;
+    font-size: 1.5em;
 }
 
 .fa-angle-right {
@@ -100,4 +100,23 @@ i{
 #shop-cart h4 {
     font-size: 1.1em;
     user-select: none;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    main {
+       width: 100%;    
+   }
+  nav ul ul {
+       padding-right: 40px;
+       padding-bottom: 20px;
+       font-size: 0.9em;  
+   }
+   #nav_menu_icon_style {
+    margin: 33px 35px;
+    font-size: 1.5em;
+}
+
+
 }

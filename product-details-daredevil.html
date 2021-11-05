@@ -45,15 +45,16 @@
 
     <main>
         <section id="product-info">
-            <div id="miniatures">
-            <img src="./assets/img/product-details/img-miniature-1.png" alt="Imágen de comic en miniatura" class="min-img" id="min-image-1">
-            <img src="./assets/img/product-details/img-miniature-2.png" alt="Imágen de comic en miniatura" class="min-img" id="min-image-2">
-            <img src="./assets/img/product-details/img-miniature-3.png" alt="Imágen de comic en miniatura" class="min-img" id="min-image-3">
-            </div>
             <div id="product-images">
-                <img src="./assets/img/product-details/img-original-1.jpg" alt="Daredevil Comic" id="product-mainImage">
-            </div>
-            
+                <div id="miniatures">
+                        <img src="./assets/img/product-details/img-miniature-1.png" alt="Imágen de comic en miniatura" class="min-img" id="min-image-1">
+                        <img src="./assets/img/product-details/img-miniature-2.png" alt="Imágen de comic en miniatura" class="min-img" id="min-image-2">
+                        <img src="./assets/img/product-details/img-miniature-3.png" alt="Imágen de comic en miniatura" class="min-img" id="min-image-3">
+                </div>
+                <div id="product-main-photo">
+                    <img src="./assets/img/product-details/img-original-1.jpg" alt="Daredevil Comic" id="product-mainImage">
+                </div>
+            </div> 
                 
             <div id="details-row">
                 <article id="product-text">
@@ -68,9 +69,8 @@
                 
                 <div id="product-interaction">
                     
-                    <h3 id="add-button">AÑADIR AL CARRITO</h3>
-                    
-                    <i class="fas fa-thumbs-up fa-3x" alt="Botón de me gusta" id="like-btn" onclick="like()""></i>
+                    <h3 id="add-button" class="add-button">AÑADIR AL CARRITO</h3>
+                    <i class="fas fa-thumbs-up fa-3x" alt="Botón de me gusta" id="like-btn" onclick="like()"></i>
 
                 </div>
             </div>
