@@ -19,6 +19,7 @@
     justify-content: space-around;
     min-width: 300px;
     margin-right: 12%;
+
     
 }
 
@@ -40,6 +41,7 @@
     min-width: 300px;
     height: 80%;
     margin-right: 8%;
+    
 }
 
 .min-img {
@@ -245,6 +247,12 @@ div.suggested-item-info :nth-child(2) {
         flex-direction: column;  
     }
     
+
+    #product-images {
+        margin-bottom: 20%;
+        margin-top:-15%;
+        
+    }
 
     section.suggested-gallery{
         width: 100%;
