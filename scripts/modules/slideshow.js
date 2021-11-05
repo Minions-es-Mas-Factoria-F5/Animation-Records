@@ -1,5 +1,5 @@
 let i=0;
-let images = ["/assets/img/banner/marvel-banner-opcion1.jpeg", "/assets/img/banner/marvel-banner-opcion2.jpeg", "/assets/img/banner/marvel-banner-opcion3.jpeg"];
+let images = ["assets/img/banner/marvel-banner-opcion1.jpeg", "assets/img/banner/marvel-banner-opcion2.jpeg", "assets/img/banner/marvel-banner-opcion3.jpeg"];
                                  
 export function changeImage() {
     document.imgSlideshow.src = images[i];
